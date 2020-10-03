@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas test</title>
+</head>
+<body>
+  <div id="mouse-location" style="position: absolute;"></div>
+  <select id="type" name="type" onchange="update()">
+    <option value="m">Módulo</option>
+    <option value="f">Fileira</option>
+  </select>
+
+  <button onclick="showType">Botão</button>
+  <canvas id="canvas" width="1000" height="700" style="border: 1px solid black;"></canvas>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
